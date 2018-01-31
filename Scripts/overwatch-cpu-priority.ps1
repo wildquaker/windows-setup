@@ -7,7 +7,6 @@ $overwatchRegistryPath = "HKLM:\Software\Microsoft\Windows NT\CurrentVersion\Ima
 
 If (!(Test-Path $overwatchRegistryPath)) {
     New-Item -Path $overwatchRegistryPath -Force | Out-Null
-    New-ItemProperty -Path $overwatchRegistryPath -Name "CpuPriorityClass" -Value "00000003" -PropertyType DWORD -Force | Out-Null
 }
 
 New-ItemProperty -Path $overwatchRegistryPath -Name "CpuPriorityClass" -Value "00000003" -PropertyType DWORD -Force | Out-Null
