@@ -7,6 +7,7 @@ $wallpaperRegistryPath = "HKCU:\Control Panel\Desktop"
 
 If (!(Test-Path $wallpaperRegistryPath)) {
     New-Item -Path $wallpaperRegistryPath -Force | Out-Null
+    New-ItemProperty -Path $wallpaperRegistryPath -Name "JPEGImportQuality" -Value "100" -PropertyType DWORD -Force | Out-Null
+} Else {
+    Set-ItemProperty -Path $wallpaperRegistryPath -Name "JPEGImportQuality" -Value "100"
 }
-
-New-ItemProperty -Path $wallpaperRegistryPath -Name "JPEGImportQuality" -Value "100" -PropertyType DWORD -Force | Out-Null
