@@ -7,14 +7,16 @@ $overwatchRegistryPath = "HKLM:\Software\Microsoft\Windows NT\CurrentVersion\Ima
 
 If (!(Test-Path $overwatchRegistryPath)) {
     New-Item -Path $overwatchRegistryPath -Force | Out-Null
+    New-ItemProperty -Path $overwatchRegistryPath -Name "CpuPriorityClass" -Value "00000003" -PropertyType DWORD -Force | Out-Null
+} Else {
+    Set-ItemProperty $overwatchRegistryPath -Name "CpuPriorityClass" -Value "00000003"
 }
-
-New-ItemProperty -Path $overwatchRegistryPath -Name "CpuPriorityClass" -Value "00000003" -PropertyType DWORD -Force | Out-Null
 
 $battleNetRegistryPath = "HKLM:\Software\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\Battle.net.exe\PerfOptions"
 
 If (!(Test-Path $battleNetRegistryPath)) {
     New-Item -Path $battleNetRegistryPath -Force | Out-Null
+    New-ItemProperty -Path $battleNetRegistryPath -Name "CpuPriorityClass" -Value "00000005" -PropertyType DWORD -Force | Out-Null
+} Else {
+    Set-ItemProperty $battleNetRegistryPath -Name "CpuPriorityClass" -Value "00000005"
 }
-
-New-ItemProperty -Path $battleNetRegistryPath -Name "CpuPriorityClass" -Value "00000005" -PropertyType DWORD -Force | Out-Null
