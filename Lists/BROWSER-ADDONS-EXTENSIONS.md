@@ -1,4 +1,4 @@
-**Extensions**
+**Google Chrome**
 * [uBlock Origin](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
 * [Privacy Possum](https://chrome.google.com/webstore/detail/privacy-possum/ommfjecdpepadiafbnidoiggfpbnkfbj)
 * [HTTPS Everywhere](https://chrome.google.com/webstore/detail/https-everywhere/gcbommkclmclpchllfjekcdonpmejbdp)
@@ -8,3 +8,14 @@
 * [Steam Database](https://chrome.google.com/webstore/detail/steam-database/kdbmhfkmnlmbkgbabkdealhhbfhlmmon)
 * [Video Downloader professional](https://chrome.google.com/webstore/detail/video-downloader-professi/elicpjhcidhpjomhibiffojpinpmmpil)
 * [Awesome Screenshot: Screen Video Recorder](https://chrome.google.com/webstore/detail/awesome-screenshot-screen/nlipoenfbbikpbjkfpfillcgkoblgpmj)
+
+**Mozilla Firefox**
+* [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)
+* [Privacy Possum](https://addons.mozilla.org/en-US/firefox/addon/privacy-possum/)
+* [HTTPS Everywhere](https://addons.mozilla.org/en-US/firefox/addon/https-everywhere/)
+* [Decentraleyes](https://addons.mozilla.org/en-US/firefox/addon/decentraleyes/)
+* [Cookie AutoDelete](https://addons.mozilla.org/en-US/firefox/addon/cookie-autodelete/)
+* [Enhanced Steam](https://addons.mozilla.org/en-US/firefox/addon/enhanced-steam/)
+* [Steam Database](https://addons.mozilla.org/en-US/firefox/addon/steam-database/)
+* [Flash Video Downloader](https://addons.mozilla.org/en-US/firefox/addon/flash-video-downloader/)
+* [Awesome Screenshot Plus - Capture, Annotate & More](https://addons.mozilla.org/en-US/firefox/addon/screenshot-capture-annotate/)
